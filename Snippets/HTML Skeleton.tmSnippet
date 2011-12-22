@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;${1:title}&lt;/title&gt;
+    &lt;link rel="stylesheet" href="css/normalize.css" /&gt;
+    &lt;link rel="stylesheet" href="css/style.css" /&gt;
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div id="container"&gt;
+        &lt;header&gt;
+            
+        &lt;/header&gt;
+        &lt;div id="main" role="main"&gt;
+            ${0}
+        &lt;/div&gt;
+        &lt;footer&gt;
+            
+        &lt;/footer&gt;
+    &lt;/div&gt;
+    
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script&gt;
+        \$(function() {
+            
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</string>
+	<key>name</key>
+	<string>HTML Skeleton</string>
+	<key>scope</key>
+	<string>text.html, source.php</string>
+	<key>tabTrigger</key>
+	<string>skel</string>
+	<key>uuid</key>
+	<string>6E969678-E9BA-402D-8AB2-E2EE69E1A5B8</string>
+</dict>
+</plist>
