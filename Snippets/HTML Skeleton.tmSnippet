@@ -10,7 +10,12 @@
     &lt;title&gt;${1:title}&lt;/title&gt;
     &lt;link rel="stylesheet" href="css/normalize.css" /&gt;
     &lt;link rel="stylesheet" href="css/style.css" /&gt;
-    &lt;!--[if lt IE 9]&gt;&lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="//html5shiv.googlecode.com/svn/trunk/html5.js"&gt;&lt;/script&gt;
+    &lt;style type="text/css"&gt;
+        article, aside, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+    &lt;/style&gt;
+    &lt;![endif]--&gt;
 &lt;/head&gt;
 &lt;body&gt;
     &lt;div id="container"&gt;
